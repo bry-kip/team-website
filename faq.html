@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Frequently asked questions about Team Byte and this site."
+    />
+    <title>FAQ | Team Byte</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/script.js" defer></script>
+    <style>
+      /* Small inline styles for the FAQ page only */
+      .faq-list {
+        max-width: 720px;
+      }
+      details {
+        margin-bottom: var(--space-2);
+        padding: 0 var(--space-2);
+        border: 1px solid var(--color-border);
+        border-radius: var(--radius);
+        background-color: var(--color-surface);
+      }
+      summary {
+        padding: var(--space-2) 0;
+        font-weight: 600;
+        cursor: pointer;
+      }
+      summary:hover,
+      details[open] summary {
+        color: var(--color-primary);
+      }
+      details p {
+        margin: 0 0 var(--space-2);
+        color: var(--color-muted);
+      }
+    </style>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="index.html">Team Byte</a>
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+        >
+          Menu
+        </button>
+        <nav id="site-nav" class="site-nav" aria-label="Main">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="faq.html" aria-current="page">FAQ</a></li>
+          </ul>
+        </nav>
+        <button class="theme-toggle" type="button" aria-pressed="false">
+          Dark mode
+        </button>
+      </div>
+    </header>
+
+    <main id="main" class="container">
+      <header class="page-header">
+        <h1>Frequently asked questions</h1>
+        <p class="lead">
+          Short answers about our team, this site and the code behind it.
+        </p>
+      </header>
+
+      <section class="faq-list" aria-labelledby="faq-heading">
+        <h2 id="faq-heading" class="visually-hidden">Questions and answers</h2>
+
+        <details>
+          <summary>What is this site built with?</summary>
+          <p>
+            Plain HTML, CSS and JavaScript — no frameworks and no templates. It
+            was built as part of CSC 216 Lab 2.
+          </p>
+        </details>
+
+        <details>
+          <summary>Can I use the code from this site?</summary>
+          <p>
+            Yes. It is a learning project. Ask us first if you plan to publish a
+            copy, and keep the co-author credits in the Git history.
+          </p>
+        </details>
+
+        <details>
+          <summary>How do I contact the team?</summary>
+          <p>
+            Use the <a href="contact.html">contact page</a>. The form checks
+            your input in the browser, and we will connect it to a real server
+            later.
+          </p>
+        </details>
+
+        <details>
+          <summary>Does the site work without JavaScript?</summary>
+          <p>
+            Mostly. The pages, navigation and this FAQ work with JavaScript
+            turned off. The project cards and form validation need JavaScript,
+            and the projects page shows a short message explaining that.
+          </p>
+        </details>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year">2026</span> Team Byte. Built for CSC 216.</p>
+      </div>
+    </footer>
+  </body>
+</html>
