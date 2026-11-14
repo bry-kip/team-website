@@ -15,7 +15,7 @@ Victor Mutugi- Part 1, 3:
 ## Personalisation
 - Our colours: (root / light == color-primary = 005a9c and color-primary-dark = 003d6b) and (body.dark == color-primary = 66b2ff and color-primary-dark = 99ccff)
 - Projects we added: git & github setup page  and html page
-- Extension challenge(s) completed: Added a fourth page from the projects (html page)
+- Extension challenge(s) completed: Added a fourth page from the projects (FAQ page)
 
 ## Reflection
 1. when to use buttons instead of div elements
