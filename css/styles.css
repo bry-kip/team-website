@@ -5,14 +5,14 @@
 
 /* ---------- 1. Design tokens ---------- */
 :root {
-  --color-bg: #f6f7f4;
+  --color-bg: #f7f5f0;
   --color-surface: #ffffff;
-  --color-text: #1c2430;
-  --color-muted: #5a6474;
-  --color-primary: #005a9c;
-  --color-primary-dark: #003d6b;
+  --color-text: #141c26;
+  --color-muted: #5d6875;
+  --color-primary: #16283f;
+  --color-primary-dark: #0e1b2e;
   --color-on-primary: #ffffff;
-  --color-border: #dde1e6;
+  --color-border: #e3ded5;
   --color-error: #b3261e;
   --color-success: #1e7b3a;
 
@@ -30,19 +30,18 @@
 }
 
 body.dark {
-  --color-bg: #11161d;
-  --color-surface: #1a212b;
-  --color-text: #e7ebf0;
-  --color-muted: #a2abb9;
-  --color-primary: #66b2ff;
-  --color-primary-dark: #99ccff;
-  --color-on-primary: #0b1f1f;
-  --color-border: #2b3340;
+  --color-bg: #0e141e;
+  --color-surface: #171f2e;
+  --color-text: #edf0f3;
+  --color-muted: #a8b3c0;
+  --color-primary: #d9b98c;
+  --color-primary-dark: #eacfa5;
+  --color-on-primary: #141a26;
+  --color-border: #2b3546;
   --color-error: #ff8a80;
   --color-success: #7ddc97;
   color-scheme: dark;
 }
-
 /* ---------- 2. Base and reset ---------- */
 *,
 *::before,
